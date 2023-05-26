@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#pagina-home{
+    height: 100vh;
+    background: linear-gradient(rgba(44, 40, 40, 0.514) , rgba(48, 42, 42, 0.5)) , url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    width: 150px;
+}
+
+
+.menu-principal ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.menu-principal ul li .link-ativo{
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+h1{
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 80px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+#pagina-home main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.cadastro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.alinhamento{
+    text-align: center;
+}
